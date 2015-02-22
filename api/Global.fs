@@ -5,6 +5,8 @@ open System.Web.Http
 open System.Net
 open System.Net.Http
  
+//Ripped off from Mark Seemann http://blog.ploeh.dk/2013/08/23/how-to-create-a-pure-f-aspnet-web-api-project/
+
 type HttpRouteDefaults = { Controller : string; Id : obj }
  
  type ValuesController() =
